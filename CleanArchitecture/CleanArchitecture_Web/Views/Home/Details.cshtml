@@ -1,0 +1,22 @@
+﻿@model List<CleanArchitecture_Web.ViewModels.EmployeeDepartmentVM>
+@{
+    ViewData["Title"] = "Details";
+}
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Salary</th>
+            <th>DepartmentName</th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Salary</td>
+            <td>@item.DeptName</td>
+        </tr>
+    }
+</table>

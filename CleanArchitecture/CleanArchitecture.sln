@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture_Repositry
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearArchitecture_Service", "ClearArchitecture_Service\ClearArchitecture_Service.csproj", "{2D79BED6-FD95-4996-9FBC-74641CB74A2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture_Web", "CleanArchitecture_Web\CleanArchitecture_Web.csproj", "{A094CC82-9CF4-4FEB-9524-4A3B32944CF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2D79BED6-FD95-4996-9FBC-74641CB74A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D79BED6-FD95-4996-9FBC-74641CB74A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D79BED6-FD95-4996-9FBC-74641CB74A2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A094CC82-9CF4-4FEB-9524-4A3B32944CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A094CC82-9CF4-4FEB-9524-4A3B32944CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A094CC82-9CF4-4FEB-9524-4A3B32944CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A094CC82-9CF4-4FEB-9524-4A3B32944CF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

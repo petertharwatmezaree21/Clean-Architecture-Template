@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Employee>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Salary</th>
+                <th>DepartmentNum</th>
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Salary</td>
+                <td>@item.DeptId</td>
+            </tr>
+        }
+    </table>
